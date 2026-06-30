@@ -1,0 +1,4001 @@
+{
+  "typology": "unlicensed_vasp",
+  "scenario_id": "SCN_0151",
+  "nodes": [
+    {
+      "id": "001fccfb-a437-463a-a068-2e9238dbebfa",
+      "type": "customer",
+      "role": "vasp_operator",
+      "label": "Customer-001fcc"
+    },
+    {
+      "id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "type": "account",
+      "role": "vasp_operator",
+      "label": "ACC-6642555"
+    },
+    {
+      "id": "2163853e-1db9-410e-85a3-3e7528a16773",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-216385"
+    },
+    {
+      "id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-91135007"
+    },
+    {
+      "id": "d74b86fe-66f4-4dc3-85ad-29ab05ed3c10",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-d74b86"
+    },
+    {
+      "id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-49823778"
+    },
+    {
+      "id": "d881f175-5d30-4cea-bf1f-27a8806b2b7d",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-d881f1"
+    },
+    {
+      "id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-0493691"
+    },
+    {
+      "id": "042a50bf-afd9-4e1f-8adb-587df140b87d",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-042a50"
+    },
+    {
+      "id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-336062553"
+    },
+    {
+      "id": "0331f370-3aa7-4bf7-b1c5-63effe11f89e",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-0331f3"
+    },
+    {
+      "id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-69064124"
+    },
+    {
+      "id": "8182bf29-17dc-4318-8902-e3b3a13d4eb9",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-8182bf"
+    },
+    {
+      "id": "19577116-0577-4756-bace-ac5dec693a51",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-883158550"
+    },
+    {
+      "id": "b9e0e569-2f28-4bd3-bbec-8944d583fa1c",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-b9e0e5"
+    },
+    {
+      "id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-265500246"
+    },
+    {
+      "id": "e6ddaa6f-af63-4931-ad35-45ad7ea295f1",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-e6ddaa"
+    },
+    {
+      "id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-11174026"
+    },
+    {
+      "id": "1d0b97a4-1c5d-485d-8a71-a01b38c05d9e",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-1d0b97"
+    },
+    {
+      "id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-688676566"
+    },
+    {
+      "id": "4d913070-0fc8-4e63-acfa-f13f5a50395e",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-4d9130"
+    },
+    {
+      "id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-5408155"
+    },
+    {
+      "id": "a650de83-a31f-4db6-a9d5-645fee195f0c",
+      "type": "customer",
+      "role": "depositor",
+      "label": "Customer-a650de"
+    },
+    {
+      "id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "type": "account",
+      "role": "depositor",
+      "label": "ACC-6949711"
+    }
+  ],
+  "edges": [
+    {
+      "source": "09ace5c6-f020-45a0-b1a2-88bb259f7f3b",
+      "target": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "amount": 883.5,
+      "datetime": "2025-09-21T05:17:21",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "target": "b7e129b2-7b1f-4c37-a0d1-a41f09589eba",
+      "amount": 77.84,
+      "datetime": "2025-09-21T09:47:03",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "target": "bd5e1ad3-552b-47fd-af65-3d6fd58904cf",
+      "amount": 148.93,
+      "datetime": "2025-09-21T09:49:03",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "800bd611-6cac-4486-adda-aabaf4209097",
+      "target": "9a425e65-2d8e-444c-b91a-7e961fb5b69d",
+      "amount": 346.1,
+      "datetime": "2025-09-21T13:32:33",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "target": "14f4ba9c-75bc-49a1-b7cc-3ca0ac77488b",
+      "amount": 308.83,
+      "datetime": "2025-09-21T13:42:27",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "36529105-9aa4-4b84-9835-9a8ba8d806e8",
+      "target": "19577116-0577-4756-bace-ac5dec693a51",
+      "amount": 109.61,
+      "datetime": "2025-09-21T15:02:35",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "target": "bb7b510c-662d-4028-bc7a-0eee0e5e402e",
+      "amount": 72.33,
+      "datetime": "2025-09-21T15:21:37",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "2d540093-242c-4b59-b4dd-1b0a4d7dc478",
+      "target": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "amount": 91.19,
+      "datetime": "2025-09-21T16:50:44",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "cbd5efaa-d3e7-45d3-ac25-73fbe2badcb6",
+      "target": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "amount": 240.51,
+      "datetime": "2025-09-21T22:11:23",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "target": "45691156-e7c5-43bd-b83b-acab8358bb1a",
+      "amount": 1136.64,
+      "datetime": "2025-09-22T01:49:38",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "target": "da564c12-c8b1-4794-aed4-fba130c5405e",
+      "amount": 432.28,
+      "datetime": "2025-09-22T03:34:50",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "48aea291-b77c-44a4-9c5f-16789d800626",
+      "target": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "amount": 252.01,
+      "datetime": "2025-09-22T03:36:50",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "1e94ea8d-600d-43cd-9675-292bc5a47b67",
+      "target": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "amount": 761.57,
+      "datetime": "2025-09-22T04:57:31",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "8fc92b51-df1d-44ee-87fc-a89c5dde271d",
+      "target": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "amount": 1873.74,
+      "datetime": "2025-09-22T08:29:42",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "c68b6f0c-edc0-4dfe-9541-332ec1d7ffdb",
+      "target": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "amount": 905.1,
+      "datetime": "2025-09-22T08:48:41",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "685c4998-1abf-4e3b-ad0c-a672491e7847",
+      "target": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "amount": 119.79,
+      "datetime": "2025-09-22T08:50:41",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "4ec765cf-f3e3-4e89-b995-577faa1f2233",
+      "target": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "amount": 428.38,
+      "datetime": "2025-09-22T15:25:46",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "target": "4e6f4341-1157-4ec2-90dd-9f33013efcff",
+      "amount": 213.07,
+      "datetime": "2025-09-22T15:35:31",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "291a4cf4-5ddc-4993-ae87-0c4e63f88475",
+      "target": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "amount": 45.46,
+      "datetime": "2025-09-22T20:07:39",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "target": "ca18be67-fd07-4173-9247-fe1267791af5",
+      "amount": 1826.04,
+      "datetime": "2025-09-22T20:43:45",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "target": "2ae0e52e-f844-4d68-9f3d-4b4fef2b1918",
+      "amount": 283.48,
+      "datetime": "2025-09-23T01:50:49",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "target": "9f803a94-52cf-4b04-922d-91b2fdc678a5",
+      "amount": 158.01,
+      "datetime": "2025-09-23T07:21:17",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "target": "a57151ee-08a9-405b-8866-8b4b11358825",
+      "amount": 209.51,
+      "datetime": "2025-09-23T09:12:15",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "target": "aea7d36b-8619-481a-b784-54913adb12c0",
+      "amount": 63.68,
+      "datetime": "2025-09-23T09:16:39",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "e394a5d6-4522-4e8d-b67a-8776293a84ca",
+      "target": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "amount": 127.68,
+      "datetime": "2025-09-23T09:18:15",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "800bd611-6cac-4486-adda-aabaf4209097",
+      "target": "41b5cb79-07b0-4f3b-be5b-f0a6d51345cf",
+      "amount": 281.88,
+      "datetime": "2025-09-23T09:54:20",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "800bd611-6cac-4486-adda-aabaf4209097",
+      "target": "260f8190-b0f3-473e-9778-709090faaa69",
+      "amount": 130.35,
+      "datetime": "2025-09-23T09:58:20",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "25150002-a68a-4ab7-a8fa-ad75fa8b760e",
+      "target": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "amount": 30.6,
+      "datetime": "2025-09-23T10:53:31",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "19577116-0577-4756-bace-ac5dec693a51",
+      "target": "a45a8206-0783-4709-b85e-933c2bde99d5",
+      "amount": 2580.57,
+      "datetime": "2025-09-23T11:28:49",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "800bd611-6cac-4486-adda-aabaf4209097",
+      "target": "f1bf9ebd-45d4-4cfa-84c3-5230bc18409e",
+      "amount": 137.62,
+      "datetime": "2025-09-23T14:38:20",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "target": "59490bd0-124a-448e-a080-00f8c18e87bd",
+      "amount": 2915.25,
+      "datetime": "2025-09-23T22:26:37",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "target": "13ddfaa8-5bfc-4fa5-987e-14b2b54339b7",
+      "amount": 48.66,
+      "datetime": "2025-09-23T22:30:37",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "a744f47e-efa5-4355-a4a7-3b0f753dd7ed",
+      "target": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "amount": 586.46,
+      "datetime": "2025-09-24T02:14:28",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "target": "c5823f88-127d-4cc3-ba0f-9f56473b9b93",
+      "amount": 863.56,
+      "datetime": "2025-09-24T02:16:28",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "480150d8-4afb-48bb-978f-af2210ce3326",
+      "target": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "amount": 1478.83,
+      "datetime": "2025-09-24T05:54:27",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "target": "5ace3b7a-fa7b-475b-bcd2-fca6c52c3de7",
+      "amount": 770.55,
+      "datetime": "2025-09-24T05:56:27",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "target": "c7ff662e-71d4-43b4-ac9d-17a621b18390",
+      "amount": 123.62,
+      "datetime": "2025-09-24T05:58:27",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "19577116-0577-4756-bace-ac5dec693a51",
+      "target": "7ee83846-fa48-4897-8f41-f33f26238c22",
+      "amount": 2813.86,
+      "datetime": "2025-09-24T06:46:00",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "f8a2337d-bdda-4abe-b484-3e4774aefba9",
+      "target": "19577116-0577-4756-bace-ac5dec693a51",
+      "amount": 222.47,
+      "datetime": "2025-09-24T06:48:00",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "19577116-0577-4756-bace-ac5dec693a51",
+      "target": "0cdc88cd-e379-4cde-8e0d-f1f7775ce6a9",
+      "amount": 938.38,
+      "datetime": "2025-09-24T06:50:00",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "target": "53217be0-9757-40a0-a5a7-092f432af993",
+      "amount": 932.12,
+      "datetime": "2025-09-24T08:52:26",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "eae9c67d-3089-481c-970f-69f31257781c",
+      "target": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "amount": 135.22,
+      "datetime": "2025-09-24T09:03:13",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "target": "b9e2bf3b-a7ed-46c6-acf9-00d999ad958b",
+      "amount": 445.76,
+      "datetime": "2025-09-24T09:42:48",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "30220d72-5c53-4e04-ad3c-fcfd6d8682df",
+      "target": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "amount": 313.3,
+      "datetime": "2025-09-24T09:59:45",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "b6b4c0ad-ccdb-4645-af83-bc758b91e4ff",
+      "target": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "amount": 13.72,
+      "datetime": "2025-09-24T09:59:59",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "target": "aa6c98e8-fb25-4541-a474-ffce2019d0a6",
+      "amount": 390.77,
+      "datetime": "2025-09-24T09:59:59.000001",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "df4a0149-3dea-4b20-97c4-9d76207c9089",
+      "target": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "amount": 787.73,
+      "datetime": "2025-09-24T10:38:25",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "9f5ed00d-5f8b-4390-8e38-ae5130c5a647",
+      "target": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "amount": 38.22,
+      "datetime": "2025-09-24T16:56:09",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "target": "d781ef1e-683d-46c5-a11f-a040866e1c63",
+      "amount": 525.43,
+      "datetime": "2025-09-24T18:20:23",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "target": "59b53816-ccb4-4b46-bcd7-30c967d8dc04",
+      "amount": 3088.3,
+      "datetime": "2025-09-24T20:49:52",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "target": "1f149451-51d0-4eac-af8c-be2729d552a9",
+      "amount": 416.08,
+      "datetime": "2025-09-24T23:07:02",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "target": "671e794f-e472-4751-8e3c-10b45799c7b2",
+      "amount": 1066.73,
+      "datetime": "2025-09-25T04:26:31",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "f86346e4-8098-4c8f-8b65-bafec35ba734",
+      "target": "800bd611-6cac-4486-adda-aabaf4209097",
+      "amount": 159.01,
+      "datetime": "2025-09-25T05:34:00",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "target": "94e5f016-b4c5-49ee-88c3-62fd3a4b4208",
+      "amount": 102.58,
+      "datetime": "2025-09-25T06:26:56",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d8192587-077f-4e82-9d04-7ee19335dc62",
+      "target": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "amount": 79.7,
+      "datetime": "2025-09-25T06:29:10",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "target": "e3913608-b9f6-4d03-8351-9bf00a5d7c96",
+      "amount": 22.7,
+      "datetime": "2025-09-25T06:31:10",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "8cf1325c-cc0f-458c-bb85-7f2da83d6ded",
+      "target": "19577116-0577-4756-bace-ac5dec693a51",
+      "amount": 589.39,
+      "datetime": "2025-09-25T08:30:14",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "19577116-0577-4756-bace-ac5dec693a51",
+      "target": "8c3803b9-ad1c-4b8c-8425-de55e58ee59b",
+      "amount": 690.09,
+      "datetime": "2025-09-25T08:38:14",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "target": "137957d3-46c5-4314-8617-40a4259f7cb6",
+      "amount": 265.4,
+      "datetime": "2025-09-25T08:56:47",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "920aa3bf-cff8-4fd4-9e21-31d60cba189a",
+      "target": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "amount": 406.37,
+      "datetime": "2025-09-25T09:45:03",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "b873a8f5-bc11-4f54-8278-672cc796bdf9",
+      "target": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "amount": 1451.36,
+      "datetime": "2025-09-25T09:47:03",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "1986a8fd-c2c3-41ed-829d-f90d50fa9b11",
+      "target": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "amount": 174.87,
+      "datetime": "2025-09-25T09:57:18",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "6323b506-812d-4726-af20-4170e7e4050e",
+      "target": "19577116-0577-4756-bace-ac5dec693a51",
+      "amount": 637.25,
+      "datetime": "2025-09-25T10:06:04",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "19577116-0577-4756-bace-ac5dec693a51",
+      "target": "eb27a632-85c3-4427-a7cd-885e7eedff04",
+      "amount": 45.77,
+      "datetime": "2025-09-25T11:06:03",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "800bd611-6cac-4486-adda-aabaf4209097",
+      "target": "5d90d5b0-e54a-4eff-9eb3-c90030fa357b",
+      "amount": 2856.69,
+      "datetime": "2025-09-25T11:56:20",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "target": "58a64de3-6b62-4324-87bb-d1b9f844c628",
+      "amount": 491.86,
+      "datetime": "2025-09-25T12:34:32",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "target": "1f702ec2-9acb-4f09-a1ce-b0b2eec642da",
+      "amount": 1727.83,
+      "datetime": "2025-09-25T15:07:32",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "target": "e035d716-c80f-4228-ad88-41ad5b898310",
+      "amount": 129.1,
+      "datetime": "2025-09-25T15:19:48",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "target": "78a004e8-0dcf-46d0-a51c-666f59e1eefb",
+      "amount": 632.39,
+      "datetime": "2025-09-25T19:37:21",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "0f211568-1252-4569-8344-a920e76ef87b",
+      "target": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "amount": 525.91,
+      "datetime": "2025-09-26T00:49:02",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "8e716ad3-c683-4131-8a8c-3d5dd8ef4c0a",
+      "target": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "amount": 1481.69,
+      "datetime": "2025-09-26T08:23:03",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "target": "6f77a5f8-fb89-4bd2-8163-f780558e953c",
+      "amount": 130.71,
+      "datetime": "2025-09-26T08:27:03",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "4727dc35-13ab-4eec-87f4-08418272ad25",
+      "target": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "amount": 741.6,
+      "datetime": "2025-09-26T08:39:14",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "target": "c7ea5812-75c3-4a39-9af4-4b61f16cc323",
+      "amount": 180.73,
+      "datetime": "2025-09-26T09:43:24",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "target": "8768f067-b5b8-4571-8d0e-7a7c07b61a32",
+      "amount": 26.43,
+      "datetime": "2025-09-26T09:58:01",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "e2d024bd-0521-47ec-bf69-6e1254d78c44",
+      "target": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "amount": 41.67,
+      "datetime": "2025-09-26T09:59:24",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "a0b74f31-ba62-4e69-a107-1753d9e6682a",
+      "target": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "amount": 1518.93,
+      "datetime": "2025-09-26T09:59:59",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "286e8463-2794-4e70-9233-de37599ff263",
+      "target": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "amount": 222.39,
+      "datetime": "2025-09-26T09:59:59",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "e8b23ad6-16c4-4319-b76f-c867b73498c3",
+      "target": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "amount": 51.25,
+      "datetime": "2025-09-26T12:09:00",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "target": "63e6df7c-9ada-4471-b45c-946772e8441d",
+      "amount": 142.2,
+      "datetime": "2025-09-26T12:11:00",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "target": "8d02f4ec-a000-487a-8ee3-8454eefd50f3",
+      "amount": 468.23,
+      "datetime": "2025-09-26T12:13:00",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "19577116-0577-4756-bace-ac5dec693a51",
+      "target": "d393150c-9169-4af0-9d29-251dae8c9b88",
+      "amount": 313.52,
+      "datetime": "2025-09-26T12:20:18",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "83d1bb61-5509-448e-8611-c898f85b3458",
+      "target": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "amount": 285.1,
+      "datetime": "2025-09-26T12:23:58",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "1fe64f8f-e2f4-4c1a-896c-5047d716d217",
+      "target": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "amount": 302.83,
+      "datetime": "2025-09-26T13:52:33",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "target": "dd928c56-7310-4510-9967-be130fde3504",
+      "amount": 51.66,
+      "datetime": "2025-09-26T16:14:32",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "1ba67bab-bc49-461f-a049-257e29ca4bba",
+      "target": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "amount": 19.84,
+      "datetime": "2025-09-26T17:40:06",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "a7686530-42db-457c-a421-054f708fd5e3",
+      "target": "19577116-0577-4756-bace-ac5dec693a51",
+      "amount": 289.0,
+      "datetime": "2025-09-26T18:08:02",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "1c5e4301-70f4-494e-a11c-d0c2dea856af",
+      "target": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "amount": 725.23,
+      "datetime": "2025-09-26T22:23:35",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "5bed77a8-bf68-4677-937d-b1e7f30fbafe",
+      "target": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "amount": 317.55,
+      "datetime": "2025-09-27T08:35:28",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "target": "5dedc2a8-76bb-444b-a4bc-58389a5b55f4",
+      "amount": 99.84,
+      "datetime": "2025-09-27T08:37:28",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "a2437faa-71be-45ba-ad65-762dcbbbd83a",
+      "target": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "amount": 437.09,
+      "datetime": "2025-09-27T09:25:46",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "target": "de559cc9-2114-4d6c-bd7d-28ce5f73962d",
+      "amount": 268.55,
+      "datetime": "2025-09-27T09:33:46",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "800bd611-6cac-4486-adda-aabaf4209097",
+      "target": "acd4ca23-f418-42ab-85a1-65d3c8a16dfe",
+      "amount": 180.17,
+      "datetime": "2025-09-27T11:28:48",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "eca66e5c-d2e4-49f5-a8f2-92293b4a7db6",
+      "target": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "amount": 328.3,
+      "datetime": "2025-09-27T12:13:10",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "target": "38ee18a3-4d14-497e-ba79-4d1ce6377c8e",
+      "amount": 105.91,
+      "datetime": "2025-09-27T14:32:26",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "target": "0668563a-2573-4f2d-856b-cb24f0ce5375",
+      "amount": 13.6,
+      "datetime": "2025-09-27T15:59:57",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "ec401b13-8d37-4f5d-afa3-b739e132e442",
+      "target": "19577116-0577-4756-bace-ac5dec693a51",
+      "amount": 97.25,
+      "datetime": "2025-09-27T17:31:37",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "fcfcc0c8-fe62-4c72-93f4-2cb70ae6c6d9",
+      "target": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "amount": 2020.63,
+      "datetime": "2025-09-27T19:53:54",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "target": "e277d14a-5535-41a7-abc4-b5c7731656d4",
+      "amount": 154.15,
+      "datetime": "2025-09-28T02:07:59",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "target": "2650b86b-bc80-47e0-8f1c-688fd1b52b7c",
+      "amount": 174.49,
+      "datetime": "2025-09-28T05:44:11",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "target": "cef7e369-07f8-41fe-9ae3-ba79fdac2c6e",
+      "amount": 2486.48,
+      "datetime": "2025-09-28T05:46:11",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "8d59911d-a614-425e-babe-23514453eac7",
+      "target": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "amount": 695.43,
+      "datetime": "2025-09-28T08:07:13",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "a211587e-69db-47a8-a836-153b14471b64",
+      "target": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "amount": 137.52,
+      "datetime": "2025-09-28T08:11:13",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "19577116-0577-4756-bace-ac5dec693a51",
+      "target": "ef162c78-d43e-46c5-b73b-e05942aef468",
+      "amount": 162.17,
+      "datetime": "2025-09-28T08:43:11",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "19577116-0577-4756-bace-ac5dec693a51",
+      "target": "e0a6f6a2-15f3-4b9e-840f-946c6e641a92",
+      "amount": 99.37,
+      "datetime": "2025-09-28T08:45:11",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "target": "5c03c204-c5e4-404d-9a73-70d013b2d516",
+      "amount": 886.58,
+      "datetime": "2025-09-28T11:37:24",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "9344ebef-444c-4f53-bc07-6bd71554230d",
+      "target": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "amount": 105.64,
+      "datetime": "2025-09-28T11:41:24",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "target": "343b1c29-5395-4fc6-82f5-a01367ba7916",
+      "amount": 225.71,
+      "datetime": "2025-09-28T12:00:40",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "target": "16b36c77-f693-4a11-9565-13b066b88ac8",
+      "amount": 87.63,
+      "datetime": "2025-09-28T15:30:56",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "5a040cef-53c5-4f2f-a8e1-eaf10db42480",
+      "target": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "amount": 336.18,
+      "datetime": "2025-09-28T15:32:56",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "800bd611-6cac-4486-adda-aabaf4209097",
+      "target": "5d7e6051-c991-4247-b649-159b24f21c31",
+      "amount": 79.31,
+      "datetime": "2025-09-28T15:33:59",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "target": "d515f7a9-1498-4aab-91c5-c5f2a223fe35",
+      "amount": 62.78,
+      "datetime": "2025-09-28T15:50:30",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "target": "14c794a4-4183-4e08-83ec-cf3b286eb0c9",
+      "amount": 509.79,
+      "datetime": "2025-09-28T16:12:06",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "dc50d75a-d442-4300-acef-a4f59f5cb051",
+      "target": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "amount": 52.05,
+      "datetime": "2025-09-28T19:12:10",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "target": "2e6db953-fc01-4f4d-87ce-a0a67df067e3",
+      "amount": 165.36,
+      "datetime": "2025-09-29T01:45:33",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "target": "e738c5a6-98ab-47e6-ad40-939e574e1e9c",
+      "amount": 43.74,
+      "datetime": "2025-09-29T01:58:55",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "9d960459-2681-45f3-b0c9-31b8870b36fa",
+      "target": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "amount": 141.17,
+      "datetime": "2025-09-29T04:12:22",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "9da88a94-30ae-4b3d-be46-4f5ae91715ef",
+      "target": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "amount": 101.04,
+      "datetime": "2025-09-29T09:00:24",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "c4d4d196-2886-4f3b-bc7e-012f0e0ef2fc",
+      "target": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "amount": 472.77,
+      "datetime": "2025-09-29T09:04:03",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "800bd611-6cac-4486-adda-aabaf4209097",
+      "target": "f19a97e7-18b9-421c-999f-ee72d93c82a1",
+      "amount": 1223.12,
+      "datetime": "2025-09-29T09:59:32",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "target": "bc37501b-d660-4889-827d-0c7924024d74",
+      "amount": 123.13,
+      "datetime": "2025-09-29T10:00:19",
+      "tx_type": "transfer_internal"
+    }
+  ],
+  "timeline": [
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-21T05:17:21",
+      "amount": 883.5,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-21T05:19:21",
+      "amount": 90.01,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-21T08:07:39",
+      "amount": 39.72,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-21T08:09:39",
+      "amount": 19.51,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-21T08:11:39",
+      "amount": 127.94,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-21T08:18:14",
+      "amount": 217.68,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-21T08:20:14",
+      "amount": 227.86,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T08:24:17",
+      "amount": 86.67,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T08:26:17",
+      "amount": 390.84,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T08:28:17",
+      "amount": 190.94,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T08:30:17",
+      "amount": 172.1,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-21T08:35:37",
+      "amount": 790.39,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-21T08:35:50",
+      "amount": 156.08,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T09:03:02",
+      "amount": 69.07,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T09:05:02",
+      "amount": 4347.92,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T09:07:02",
+      "amount": 375.97,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-21T09:21:39",
+      "amount": 504.52,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-21T09:23:27",
+      "amount": 208.49,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-21T09:23:39",
+      "amount": 96.89,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-21T09:25:27",
+      "amount": 500.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-21T09:25:39",
+      "amount": 73.45,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-21T09:27:39",
+      "amount": 106.01,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-21T09:47:03",
+      "amount": 77.84,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-21T09:49:03",
+      "amount": 148.93,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-21T09:51:03",
+      "amount": 74.7,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-21T13:01:46",
+      "amount": 20.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-21T13:03:46",
+      "amount": 49.02,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-21T13:16:36",
+      "amount": 926.86,
+      "direction": "credit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-21T13:32:33",
+      "amount": 346.1,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-21T13:34:33",
+      "amount": 63.98,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T13:42:27",
+      "amount": 308.83,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-21T13:50:05",
+      "amount": 131.81,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-21T13:52:05",
+      "amount": 246.73,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-21T14:22:22",
+      "amount": 327.58,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-21T15:02:35",
+      "amount": 109.61,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T15:13:37",
+      "amount": 102.41,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T15:15:37",
+      "amount": 13.83,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T15:17:37",
+      "amount": 91.83,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T15:19:37",
+      "amount": 31.73,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T15:21:37",
+      "amount": 72.33,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-21T16:50:44",
+      "amount": 91.19,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-21T16:52:44",
+      "amount": 257.87,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-21T17:02:15",
+      "amount": 16150.44,
+      "direction": "credit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-21T17:02:15",
+      "amount": 16150.44,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T22:07:23",
+      "amount": 1211.94,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T22:09:23",
+      "amount": 221.7,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T22:11:23",
+      "amount": 240.51,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T22:13:23",
+      "amount": 12.58,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-21T22:15:23",
+      "amount": 3047.79,
+      "direction": "credit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-22T01:14:21",
+      "amount": 44.58,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-22T01:16:21",
+      "amount": 63.84,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-22T01:37:38",
+      "amount": 1137.44,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-22T01:39:38",
+      "amount": 64.65,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-22T01:41:38",
+      "amount": 130.53,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-22T01:43:38",
+      "amount": 268.65,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-22T01:45:38",
+      "amount": 46.1,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-22T01:47:38",
+      "amount": 368.66,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-22T01:49:38",
+      "amount": 1136.64,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-22T03:03:45",
+      "amount": 92.07,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T03:34:50",
+      "amount": 432.28,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T03:36:50",
+      "amount": 252.01,
+      "direction": "credit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-22T04:57:31",
+      "amount": 761.57,
+      "direction": "credit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-22T04:59:31",
+      "amount": 82.78,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-22T05:01:31",
+      "amount": 171.77,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-22T07:40:13",
+      "amount": 1773.91,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-22T07:42:13",
+      "amount": 247.76,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-22T07:53:46",
+      "amount": 2903.61,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-22T07:55:46",
+      "amount": 171.6,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-22T07:57:46",
+      "amount": 511.97,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-22T07:59:46",
+      "amount": 826.13,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-22T08:21:29",
+      "amount": 103.97,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-22T08:29:42",
+      "amount": 1873.74,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-22T08:46:41",
+      "amount": 2317.9,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-22T08:48:41",
+      "amount": 905.1,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-22T08:50:41",
+      "amount": 119.79,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-22T08:54:14",
+      "amount": 181.36,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-22T09:01:28",
+      "amount": 22.87,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T09:23:19",
+      "amount": 200.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T09:25:19",
+      "amount": 169.48,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T09:27:19",
+      "amount": 23.53,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T09:29:19",
+      "amount": 159.19,
+      "direction": "credit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-22T09:35:20",
+      "amount": 311.93,
+      "direction": "credit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-22T09:37:20",
+      "amount": 125.9,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-22T09:39:20",
+      "amount": 43.51,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T10:48:47",
+      "amount": 84.42,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T11:05:14",
+      "amount": 1000.91,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-22T11:59:55",
+      "amount": 46.02,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-22T12:43:22",
+      "amount": 111.16,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-22T13:29:21",
+      "amount": 292.76,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-22T13:31:21",
+      "amount": 83.02,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T15:25:46",
+      "amount": 428.38,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-22T15:31:31",
+      "amount": 233.62,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-22T15:33:31",
+      "amount": 157.22,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-22T15:35:31",
+      "amount": 213.07,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-22T16:20:18",
+      "amount": 8637.31,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-22T16:22:18",
+      "amount": 237.58,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T17:27:59",
+      "amount": 231.68,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-22T18:24:34",
+      "amount": 427.47,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-22T20:03:39",
+      "amount": 95.22,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T20:03:40",
+      "amount": 181.54,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-22T20:05:39",
+      "amount": 10.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T20:05:40",
+      "amount": 75.29,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-22T20:07:39",
+      "amount": 45.46,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T20:28:05",
+      "amount": 2961.08,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-22T20:30:05",
+      "amount": 86.65,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-22T20:43:45",
+      "amount": 1826.04,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-22T20:45:45",
+      "amount": 14.26,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-22T22:04:17",
+      "amount": 22.81,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-23T01:50:49",
+      "amount": 283.48,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-23T03:00:18",
+      "amount": 717.56,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-23T07:21:17",
+      "amount": 158.01,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-23T08:34:48",
+      "amount": 1215.68,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-23T08:40:13",
+      "amount": 116.37,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-23T08:42:13",
+      "amount": 98.76,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-23T08:52:55",
+      "amount": 1428.11,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T09:01:54",
+      "amount": 2054.01,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T09:03:54",
+      "amount": 476.24,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T09:05:54",
+      "amount": 10.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T09:07:54",
+      "amount": 297.07,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T09:10:15",
+      "amount": 186.26,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T09:12:15",
+      "amount": 209.51,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T09:14:15",
+      "amount": 60.25,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T09:16:15",
+      "amount": 17.51,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-23T09:16:39",
+      "amount": 63.68,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T09:18:15",
+      "amount": 127.68,
+      "direction": "credit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T09:20:15",
+      "amount": 765.1,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T09:22:15",
+      "amount": 7008.12,
+      "direction": "credit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T09:24:15",
+      "amount": 130.55,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-23T09:27:00",
+      "amount": 164.63,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-23T09:29:00",
+      "amount": 126.15,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-23T09:31:00",
+      "amount": 78.86,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-23T09:34:52",
+      "amount": 550.97,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T09:47:40",
+      "amount": 143.55,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T09:50:20",
+      "amount": 80.76,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T09:52:20",
+      "amount": 4922.4,
+      "direction": "credit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T09:54:20",
+      "amount": 281.88,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T09:56:20",
+      "amount": 610.62,
+      "direction": "credit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T09:58:20",
+      "amount": 130.35,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T09:59:59",
+      "amount": 175.95,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-23T09:59:59.000001",
+      "amount": 13104.06,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-23T09:59:59.000001",
+      "amount": 3673.24,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-23T09:59:59.000001",
+      "amount": 13104.06,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-23T09:59:59.000001",
+      "amount": 3673.24,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-23T10:51:31",
+      "amount": 90.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-23T10:53:31",
+      "amount": 30.6,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-23T11:28:49",
+      "amount": 2580.57,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-23T12:39:34",
+      "amount": 13.5,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T13:07:21",
+      "amount": 121.97,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T14:38:20",
+      "amount": 137.62,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-23T16:32:43",
+      "amount": 114.31,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-23T16:34:43",
+      "amount": 236.8,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-23T17:34:37",
+      "amount": 52.16,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-23T17:44:02",
+      "amount": 174.71,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-23T17:46:02",
+      "amount": 89.03,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T17:49:49",
+      "amount": 69.05,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T17:51:49",
+      "amount": 145.15,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T22:24:37",
+      "amount": 87.76,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T22:26:37",
+      "amount": 2915.25,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T22:28:37",
+      "amount": 153.32,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-23T22:30:37",
+      "amount": 48.66,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T23:33:33",
+      "amount": 65.65,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-23T23:35:33",
+      "amount": 40.2,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T23:49:34",
+      "amount": 149.63,
+      "direction": "credit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T23:51:34",
+      "amount": 1315.58,
+      "direction": "credit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T23:53:34",
+      "amount": 16.07,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-23T23:55:34",
+      "amount": 201.68,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-24T02:03:44",
+      "amount": 688.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T02:14:28",
+      "amount": 586.46,
+      "direction": "credit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T02:16:28",
+      "amount": 863.56,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T02:18:28",
+      "amount": 174.37,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T02:20:28",
+      "amount": 229.31,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-24T05:54:27",
+      "amount": 1478.83,
+      "direction": "credit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-24T05:56:27",
+      "amount": 770.55,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-24T05:58:27",
+      "amount": 123.62,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-24T06:44:00",
+      "amount": 59.2,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-24T06:46:00",
+      "amount": 2813.86,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-24T06:48:00",
+      "amount": 222.47,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-24T06:50:00",
+      "amount": 938.38,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-24T08:00:24",
+      "amount": 141.74,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-24T08:50:26",
+      "amount": 77.23,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-24T08:52:26",
+      "amount": 932.12,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-24T09:01:13",
+      "amount": 44.53,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-24T09:03:13",
+      "amount": 135.22,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-24T09:28:32",
+      "amount": 323.77,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-24T09:30:32",
+      "amount": 45.7,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-24T09:38:48",
+      "amount": 20.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-24T09:40:48",
+      "amount": 16.18,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-24T09:42:48",
+      "amount": 445.76,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-24T09:44:48",
+      "amount": 54.03,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-24T09:46:48",
+      "amount": 457.78,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-24T09:47:43",
+      "amount": 219.33,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-24T09:59:45",
+      "amount": 313.3,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-24T09:59:59",
+      "amount": 13.72,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-24T09:59:59.000001",
+      "amount": 390.77,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-24T09:59:59.000001",
+      "amount": 8213.93,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-24T09:59:59.000001",
+      "amount": 8213.93,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-24T10:38:25",
+      "amount": 787.73,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-24T12:54:00",
+      "amount": 112.23,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-24T13:47:03",
+      "amount": 5403.89,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-24T15:41:38",
+      "amount": 30.87,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-24T15:53:33",
+      "amount": 235.71,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-24T16:14:58",
+      "amount": 379.48,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-24T16:16:58",
+      "amount": 156.41,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-24T16:44:59",
+      "amount": 355.81,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T16:56:09",
+      "amount": 38.22,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-24T18:18:23",
+      "amount": 22.77,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-24T18:20:23",
+      "amount": 525.43,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-24T19:24:24",
+      "amount": 18.52,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-24T19:26:24",
+      "amount": 35.3,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-24T19:58:41",
+      "amount": 76.38,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-24T20:00:41",
+      "amount": 633.2,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-24T20:02:41",
+      "amount": 614.56,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T20:37:32",
+      "amount": 84.27,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T20:39:32",
+      "amount": 200.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T20:41:32",
+      "amount": 161.92,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T20:49:52",
+      "amount": 3088.3,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-24T20:51:52",
+      "amount": 87.25,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-24T21:49:29",
+      "amount": 102.69,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-24T21:51:29",
+      "amount": 984.18,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-24T21:53:29",
+      "amount": 282.83,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-24T23:07:02",
+      "amount": 416.08,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T00:14:58",
+      "amount": 44.21,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-25T04:26:31",
+      "amount": 1066.73,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-25T04:46:16",
+      "amount": 101.82,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-25T05:34:00",
+      "amount": 159.01,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-25T06:26:56",
+      "amount": 102.58,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-25T06:29:10",
+      "amount": 79.7,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-25T06:31:10",
+      "amount": 22.7,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-25T06:33:10",
+      "amount": 1272.25,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-25T06:35:10",
+      "amount": 118.46,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-25T08:30:14",
+      "amount": 589.39,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-25T08:32:14",
+      "amount": 117.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-25T08:34:14",
+      "amount": 110.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-25T08:36:14",
+      "amount": 197.57,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-25T08:38:14",
+      "amount": 690.09,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-25T08:40:14",
+      "amount": 13.03,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-25T08:54:47",
+      "amount": 296.41,
+      "direction": "credit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-25T08:56:47",
+      "amount": 265.4,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-25T08:58:47",
+      "amount": 318.96,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-25T08:59:01",
+      "amount": 6477.0,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-25T08:59:01",
+      "amount": 6477.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-25T09:17:03",
+      "amount": 804.24,
+      "direction": "credit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-25T09:39:10",
+      "amount": 97.25,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-25T09:41:10",
+      "amount": 162.74,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-25T09:43:10",
+      "amount": 106.18,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T09:45:03",
+      "amount": 406.37,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T09:47:03",
+      "amount": 1451.36,
+      "direction": "credit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-25T09:47:10",
+      "amount": 142.34,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T09:49:03",
+      "amount": 773.69,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-25T09:51:10",
+      "amount": 81.37,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-25T09:55:18",
+      "amount": 160.67,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-25T09:57:18",
+      "amount": 174.87,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-25T09:59:59.000001",
+      "amount": 9117.54,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-25T09:59:59.000001",
+      "amount": 9117.54,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-25T10:06:04",
+      "amount": 637.25,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-25T11:06:03",
+      "amount": 45.77,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-25T11:56:20",
+      "amount": 2856.69,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-25T12:29:25",
+      "amount": 200.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T12:34:32",
+      "amount": 491.86,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T12:36:32",
+      "amount": 14.44,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T14:31:01",
+      "amount": 303.95,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T14:33:01",
+      "amount": 22.86,
+      "direction": "credit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-25T14:47:41",
+      "amount": 41.52,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-25T15:04:14",
+      "amount": 70.97,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-25T15:06:14",
+      "amount": 40.41,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-25T15:07:32",
+      "amount": 1727.83,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-25T15:08:14",
+      "amount": 226.03,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-25T15:15:48",
+      "amount": 518.17,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-25T15:17:48",
+      "amount": 734.81,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-25T15:19:48",
+      "amount": 129.1,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-25T15:25:45",
+      "amount": 82.67,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-25T15:27:45",
+      "amount": 299.42,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-25T17:17:12",
+      "amount": 22.19,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-25T19:37:21",
+      "amount": 632.39,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-26T00:49:02",
+      "amount": 525.91,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-26T00:51:02",
+      "amount": 34.51,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T01:10:41",
+      "amount": 26.25,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T01:12:41",
+      "amount": 16.93,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T01:14:41",
+      "amount": 225.31,
+      "direction": "credit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-26T01:26:16",
+      "amount": 19.51,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-26T01:55:04",
+      "amount": 274.53,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-26T01:57:04",
+      "amount": 346.73,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T02:35:46",
+      "amount": 34.07,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T02:37:46",
+      "amount": 67.5,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-26T06:02:49",
+      "amount": 376.04,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-26T06:04:49",
+      "amount": 185.11,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-26T06:06:49",
+      "amount": 97.23,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-26T08:07:57",
+      "amount": 80.39,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-26T08:09:57",
+      "amount": 1199.4,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-26T08:11:57",
+      "amount": 106.97,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-26T08:14:43",
+      "amount": 80.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T08:17:33",
+      "amount": 115.15,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T08:19:03",
+      "amount": 308.98,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T08:21:03",
+      "amount": 114.27,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T08:23:03",
+      "amount": 1481.69,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T08:25:03",
+      "amount": 62.02,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T08:27:03",
+      "amount": 130.71,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T08:34:44",
+      "amount": 1832.63,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T08:39:14",
+      "amount": 741.6,
+      "direction": "credit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T09:28:56",
+      "amount": 144.24,
+      "direction": "credit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T09:43:24",
+      "amount": 180.73,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T09:45:24",
+      "amount": 112.28,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T09:47:24",
+      "amount": 427.63,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-26T09:51:24",
+      "amount": 261.72,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-26T09:53:24",
+      "amount": 209.02,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T09:54:01",
+      "amount": 122.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-26T09:55:24",
+      "amount": 98.93,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T09:56:01",
+      "amount": 224.81,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-26T09:57:24",
+      "amount": 46.17,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T09:58:01",
+      "amount": 26.43,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-26T09:58:12",
+      "amount": 200.43,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-26T09:59:24",
+      "amount": 41.67,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-26T09:59:59",
+      "amount": 1518.93,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T09:59:59",
+      "amount": 222.39,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-26T09:59:59.000001",
+      "amount": 15778.39,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T09:59:59.000001",
+      "amount": 10138.59,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T09:59:59.000001",
+      "amount": 15778.39,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-26T09:59:59.000001",
+      "amount": 1565.73,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T09:59:59.000001",
+      "amount": 10138.59,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-26T09:59:59.000002",
+      "amount": 162.14,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-26T10:06:04",
+      "amount": 49.21,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-26T10:35:17",
+      "amount": 73.45,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-26T12:09:00",
+      "amount": 51.25,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-26T12:11:00",
+      "amount": 142.2,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-26T12:13:00",
+      "amount": 468.23,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T12:20:16",
+      "amount": 9.72,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T12:20:18",
+      "amount": 313.52,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T12:23:58",
+      "amount": 285.1,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T12:50:47",
+      "amount": 67.09,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-26T13:39:29",
+      "amount": 221.64,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T13:50:33",
+      "amount": 224.5,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T13:52:33",
+      "amount": 302.83,
+      "direction": "credit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-26T13:55:06",
+      "amount": 185.77,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-26T14:03:34",
+      "amount": 61.27,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-26T14:05:34",
+      "amount": 6430.97,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T14:06:05",
+      "amount": 6869.45,
+      "direction": "credit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-26T14:06:05",
+      "amount": 6869.45,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-26T15:11:23",
+      "amount": 162.92,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T15:23:08",
+      "amount": 296.13,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-26T16:09:42",
+      "amount": 27.7,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-26T16:12:32",
+      "amount": 27.39,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-26T16:14:32",
+      "amount": 51.66,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-26T16:15:22",
+      "amount": 59.65,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-26T16:16:32",
+      "amount": 98.08,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T17:38:06",
+      "amount": 332.83,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T17:40:06",
+      "amount": 19.84,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-26T17:42:06",
+      "amount": 5.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-26T17:47:20",
+      "amount": 12662.68,
+      "direction": "credit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-26T17:47:20",
+      "amount": 12662.68,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T18:02:02",
+      "amount": 48.79,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T18:04:02",
+      "amount": 239.79,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T18:06:02",
+      "amount": 192.08,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-26T18:08:02",
+      "amount": 289.0,
+      "direction": "credit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-26T20:28:35",
+      "amount": 177.62,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-26T20:30:35",
+      "amount": 164.34,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-26T21:23:42",
+      "amount": 41.63,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-26T21:25:42",
+      "amount": 142.16,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-26T22:23:35",
+      "amount": 725.23,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-26T22:25:35",
+      "amount": 159.09,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-26T22:27:35",
+      "amount": 506.55,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-27T08:30:49",
+      "amount": 80.25,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-27T08:32:49",
+      "amount": 1976.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-27T08:34:49",
+      "amount": 84.37,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-27T08:35:28",
+      "amount": 317.55,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-27T08:37:28",
+      "amount": 99.84,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-27T08:58:14",
+      "amount": 200.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-27T09:00:14",
+      "amount": 2751.52,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-27T09:02:14",
+      "amount": 141.06,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-27T09:23:14",
+      "amount": 322.7,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-27T09:23:46",
+      "amount": 2582.09,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-27T09:25:14",
+      "amount": 259.67,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-27T09:25:46",
+      "amount": 437.09,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-27T09:27:14",
+      "amount": 852.33,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-27T09:27:46",
+      "amount": 44.38,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-27T09:29:14",
+      "amount": 365.97,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-27T09:29:46",
+      "amount": 200.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-27T09:31:14",
+      "amount": 30.78,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-27T09:31:46",
+      "amount": 1564.66,
+      "direction": "credit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-27T09:33:46",
+      "amount": 268.55,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-27T09:51:43",
+      "amount": 1593.47,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-27T09:59:59.000001",
+      "amount": 19541.63,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-27T09:59:59.000001",
+      "amount": 97.91,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-27T09:59:59.000001",
+      "amount": 19541.63,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-27T10:17:43",
+      "amount": 362.61,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-27T11:28:48",
+      "amount": 180.17,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-27T12:11:10",
+      "amount": 3178.6,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-27T12:13:10",
+      "amount": 328.3,
+      "direction": "credit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-27T14:32:26",
+      "amount": 105.91,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-27T14:34:26",
+      "amount": 2769.47,
+      "direction": "credit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-27T14:40:54",
+      "amount": 677.95,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-27T14:42:54",
+      "amount": 5.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-27T14:44:54",
+      "amount": 10.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-27T15:20:29",
+      "amount": 93.04,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-27T15:22:29",
+      "amount": 110.5,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-27T15:59:57",
+      "amount": 13.6,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-27T17:21:26",
+      "amount": 67.34,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-27T17:31:37",
+      "amount": 97.25,
+      "direction": "credit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-27T17:53:24",
+      "amount": 75.29,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-27T17:55:24",
+      "amount": 15.54,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-27T19:53:54",
+      "amount": 2020.63,
+      "direction": "credit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-27T19:55:54",
+      "amount": 85.79,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-27T20:26:30",
+      "amount": 4619.63,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-27T20:28:30",
+      "amount": 55.29,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-28T02:07:59",
+      "amount": 154.15,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-28T02:09:59",
+      "amount": 644.29,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-28T03:26:10",
+      "amount": 1128.65,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-28T03:28:10",
+      "amount": 1563.39,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-28T04:28:10",
+      "amount": 109.31,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-28T05:42:11",
+      "amount": 119.04,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-28T05:44:11",
+      "amount": 174.49,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-28T05:46:11",
+      "amount": 2486.48,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-28T05:48:11",
+      "amount": 103.11,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-28T05:50:11",
+      "amount": 52.38,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-28T08:07:13",
+      "amount": 695.43,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-28T08:09:13",
+      "amount": 20.89,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-28T08:11:13",
+      "amount": 137.52,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-28T08:13:13",
+      "amount": 61.93,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T08:35:35",
+      "amount": 208.44,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T08:37:35",
+      "amount": 839.24,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T08:39:35",
+      "amount": 4223.37,
+      "direction": "credit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-28T08:43:11",
+      "amount": 162.17,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-28T08:45:11",
+      "amount": 99.37,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-28T08:47:11",
+      "amount": 2170.27,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-28T09:10:03",
+      "amount": 659.48,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-28T09:12:03",
+      "amount": 84.86,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-28T09:22:38",
+      "amount": 12.11,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-28T09:59:59.000002",
+      "amount": 26.4,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-28T11:37:24",
+      "amount": 886.58,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-28T11:39:24",
+      "amount": 159.64,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2e4367b8-496a-4bae-9ede-301c4c2ce59e",
+      "datetime": "2025-09-28T11:41:24",
+      "amount": 105.64,
+      "direction": "credit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-28T12:00:40",
+      "amount": 225.71,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-28T12:02:40",
+      "amount": 264.16,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-28T15:17:00",
+      "amount": 173.18,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-28T15:30:56",
+      "amount": 87.63,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-28T15:31:59",
+      "amount": 390.09,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-28T15:32:56",
+      "amount": 336.18,
+      "direction": "credit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-28T15:33:59",
+      "amount": 79.31,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T15:50:30",
+      "amount": 62.78,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T15:52:30",
+      "amount": 30.86,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T15:54:30",
+      "amount": 2700.6,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-28T16:08:06",
+      "amount": 433.14,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-28T16:10:06",
+      "amount": 5.86,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-28T16:12:06",
+      "amount": 509.79,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-28T16:14:06",
+      "amount": 275.83,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-28T16:14:32",
+      "amount": 108.33,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-28T16:16:32",
+      "amount": 840.35,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-28T16:18:32",
+      "amount": 20.01,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-28T17:24:16",
+      "amount": 15.05,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-28T17:26:16",
+      "amount": 178.84,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-28T17:28:16",
+      "amount": 112.81,
+      "direction": "credit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T17:35:58",
+      "amount": 205.31,
+      "direction": "credit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T17:37:58",
+      "amount": 97.55,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-28T17:39:58",
+      "amount": 40.19,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-28T17:45:24",
+      "amount": 75.44,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-28T17:47:24",
+      "amount": 279.24,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-28T18:10:06",
+      "amount": 654.3,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-28T18:12:06",
+      "amount": 30.13,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-28T19:10:10",
+      "amount": 9693.49,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-28T19:12:10",
+      "amount": 52.05,
+      "direction": "credit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-28T19:14:10",
+      "amount": 9900.0,
+      "direction": "credit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-28T21:54:00",
+      "amount": 471.84,
+      "direction": "credit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-28T23:41:13",
+      "amount": 743.02,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-29T01:43:33",
+      "amount": 29.96,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-29T01:45:33",
+      "amount": 165.36,
+      "direction": "debit"
+    },
+    {
+      "account_id": "21219d7e-c755-4a76-811f-77b766cfe6fb",
+      "datetime": "2025-09-29T01:47:33",
+      "amount": 326.34,
+      "direction": "debit"
+    },
+    {
+      "account_id": "e463ced8-b4e9-4ad8-990a-19fa0d978cea",
+      "datetime": "2025-09-29T01:58:55",
+      "amount": 43.74,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-29T02:02:32",
+      "amount": 26.59,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-29T02:04:32",
+      "amount": 299.81,
+      "direction": "debit"
+    },
+    {
+      "account_id": "3dee7e9a-b3f7-4511-8ed2-62e34d3fc88b",
+      "datetime": "2025-09-29T03:53:24",
+      "amount": 87.13,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-29T04:08:22",
+      "amount": 93.05,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-29T04:10:22",
+      "amount": 130.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-29T04:12:22",
+      "amount": 141.17,
+      "direction": "credit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-29T04:14:22",
+      "amount": 200.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "08f83f5e-614f-47cc-8691-0e6360849d6e",
+      "datetime": "2025-09-29T04:16:22",
+      "amount": 281.29,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-29T06:55:27",
+      "amount": 30.28,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-29T07:14:57",
+      "amount": 43.24,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-29T07:16:57",
+      "amount": 100.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-29T07:18:57",
+      "amount": 30.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-29T08:09:50",
+      "amount": 170.72,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-29T08:11:50",
+      "amount": 108.82,
+      "direction": "debit"
+    },
+    {
+      "account_id": "19577116-0577-4756-bace-ac5dec693a51",
+      "datetime": "2025-09-29T08:13:50",
+      "amount": 319.77,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-29T08:58:24",
+      "amount": 70.67,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-29T09:00:03",
+      "amount": 193.78,
+      "direction": "debit"
+    },
+    {
+      "account_id": "47d3abfa-b257-478c-8f7b-cce05468dade",
+      "datetime": "2025-09-29T09:00:24",
+      "amount": 101.04,
+      "direction": "credit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-29T09:02:03",
+      "amount": 45.74,
+      "direction": "debit"
+    },
+    {
+      "account_id": "4497399a-3b69-4b91-95ea-c7b2c992c859",
+      "datetime": "2025-09-29T09:04:03",
+      "amount": 472.77,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-29T09:46:41",
+      "amount": 43.67,
+      "direction": "debit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-29T09:48:41",
+      "amount": 798.34,
+      "direction": "credit"
+    },
+    {
+      "account_id": "04c64ef7-8064-4a4c-a9e2-8a27d06872dc",
+      "datetime": "2025-09-29T09:50:41",
+      "amount": 309.16,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-29T09:51:32",
+      "amount": 18.87,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-29T09:53:32",
+      "amount": 21.37,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-29T09:55:32",
+      "amount": 94.59,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-29T09:57:32",
+      "amount": 126.99,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-29T09:59:32",
+      "amount": 1223.12,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-29T09:59:59",
+      "amount": 67.79,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-29T09:59:59.000001",
+      "amount": 50.54,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-29T09:59:59.000001",
+      "amount": 30.49,
+      "direction": "debit"
+    },
+    {
+      "account_id": "202d5f6d-54b0-4902-b12a-65e8ceffc03c",
+      "datetime": "2025-09-29T09:59:59.000001",
+      "amount": 119292.41,
+      "direction": "debit"
+    },
+    {
+      "account_id": "800bd611-6cac-4486-adda-aabaf4209097",
+      "datetime": "2025-09-29T09:59:59.000002",
+      "amount": 189.66,
+      "direction": "debit"
+    },
+    {
+      "account_id": "d77ac408-c103-4eb1-9cef-7513214f41dd",
+      "datetime": "2025-09-29T10:00:19",
+      "amount": 123.13,
+      "direction": "debit"
+    }
+  ]
+}

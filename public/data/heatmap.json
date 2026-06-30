@@ -1,0 +1,886 @@
+{
+  "banks": [
+    "bank_anz",
+    "bank_cba",
+    "bank_macquarie",
+    "bank_nab",
+    "bank_westpac"
+  ],
+  "cells": [
+    {
+      "typology": "smurfing",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "dormant_activation",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "cash_intensive",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "micro_structuring",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "geo_smurfing",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "layering",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "chain_branch",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "pass_through",
+      "bank": "bank_anz",
+      "count": 2
+    },
+    {
+      "typology": "split_merge",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "circular_ring",
+      "bank": "bank_anz",
+      "count": 2
+    },
+    {
+      "typology": "mule_network",
+      "bank": "bank_anz",
+      "count": 2
+    },
+    {
+      "typology": "hub_network",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "fanin_fanout",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "funnel_account",
+      "bank": "bank_anz",
+      "count": 2
+    },
+    {
+      "typology": "burst_transfers",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "round_tripping",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "loan_back",
+      "bank": "bank_anz",
+      "count": 2
+    },
+    {
+      "typology": "gambling_wash",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "ghost_payroll",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "atm_cashout_ring",
+      "bank": "bank_anz",
+      "count": 2
+    },
+    {
+      "typology": "crypto_gateway",
+      "bank": "bank_anz",
+      "count": 2
+    },
+    {
+      "typology": "insurance_cycling",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "tbml_invoice",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "hawala_mirror",
+      "bank": "bank_anz",
+      "count": 3
+    },
+    {
+      "typology": "crypto_atm_withdrawal",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "exchange_micro_structuring",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "p2p_fiat_roundtrip",
+      "bank": "bank_anz",
+      "count": 2
+    },
+    {
+      "typology": "crypto_salary_obfuscation",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "stablecoin_chain",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "crypto_mining_wash",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "unlicensed_vasp",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "p2p_broker",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "unlicensed_msb",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "gambling_rapid_cycling",
+      "bank": "bank_anz",
+      "count": 1
+    },
+    {
+      "typology": "otc_desk",
+      "bank": "bank_anz",
+      "count": 0
+    },
+    {
+      "typology": "smurfing",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "dormant_activation",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "cash_intensive",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "micro_structuring",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "geo_smurfing",
+      "bank": "bank_cba",
+      "count": 3
+    },
+    {
+      "typology": "layering",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "chain_branch",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "pass_through",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "split_merge",
+      "bank": "bank_cba",
+      "count": 0
+    },
+    {
+      "typology": "circular_ring",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "mule_network",
+      "bank": "bank_cba",
+      "count": 0
+    },
+    {
+      "typology": "hub_network",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "fanin_fanout",
+      "bank": "bank_cba",
+      "count": 0
+    },
+    {
+      "typology": "funnel_account",
+      "bank": "bank_cba",
+      "count": 0
+    },
+    {
+      "typology": "burst_transfers",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "round_tripping",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "loan_back",
+      "bank": "bank_cba",
+      "count": 3
+    },
+    {
+      "typology": "gambling_wash",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "ghost_payroll",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "atm_cashout_ring",
+      "bank": "bank_cba",
+      "count": 0
+    },
+    {
+      "typology": "crypto_gateway",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "insurance_cycling",
+      "bank": "bank_cba",
+      "count": 4
+    },
+    {
+      "typology": "tbml_invoice",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "hawala_mirror",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "crypto_atm_withdrawal",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "exchange_micro_structuring",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "p2p_fiat_roundtrip",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "crypto_salary_obfuscation",
+      "bank": "bank_cba",
+      "count": 0
+    },
+    {
+      "typology": "stablecoin_chain",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "crypto_mining_wash",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "unlicensed_vasp",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "p2p_broker",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "unlicensed_msb",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "gambling_rapid_cycling",
+      "bank": "bank_cba",
+      "count": 1
+    },
+    {
+      "typology": "otc_desk",
+      "bank": "bank_cba",
+      "count": 2
+    },
+    {
+      "typology": "smurfing",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "dormant_activation",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "cash_intensive",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "micro_structuring",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "geo_smurfing",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "layering",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "chain_branch",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "pass_through",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "split_merge",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "circular_ring",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "mule_network",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "hub_network",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "fanin_fanout",
+      "bank": "bank_macquarie",
+      "count": 3
+    },
+    {
+      "typology": "funnel_account",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "burst_transfers",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "round_tripping",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "loan_back",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "gambling_wash",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "ghost_payroll",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "atm_cashout_ring",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "crypto_gateway",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "insurance_cycling",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "tbml_invoice",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "hawala_mirror",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "crypto_atm_withdrawal",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "exchange_micro_structuring",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "p2p_fiat_roundtrip",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "crypto_salary_obfuscation",
+      "bank": "bank_macquarie",
+      "count": 2
+    },
+    {
+      "typology": "stablecoin_chain",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "crypto_mining_wash",
+      "bank": "bank_macquarie",
+      "count": 0
+    },
+    {
+      "typology": "unlicensed_vasp",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "p2p_broker",
+      "bank": "bank_macquarie",
+      "count": 2
+    },
+    {
+      "typology": "unlicensed_msb",
+      "bank": "bank_macquarie",
+      "count": 3
+    },
+    {
+      "typology": "gambling_rapid_cycling",
+      "bank": "bank_macquarie",
+      "count": 1
+    },
+    {
+      "typology": "otc_desk",
+      "bank": "bank_macquarie",
+      "count": 2
+    },
+    {
+      "typology": "smurfing",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "dormant_activation",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "cash_intensive",
+      "bank": "bank_nab",
+      "count": 2
+    },
+    {
+      "typology": "micro_structuring",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "geo_smurfing",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "layering",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "chain_branch",
+      "bank": "bank_nab",
+      "count": 3
+    },
+    {
+      "typology": "pass_through",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "split_merge",
+      "bank": "bank_nab",
+      "count": 2
+    },
+    {
+      "typology": "circular_ring",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "mule_network",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "hub_network",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "fanin_fanout",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "funnel_account",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "burst_transfers",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "round_tripping",
+      "bank": "bank_nab",
+      "count": 2
+    },
+    {
+      "typology": "loan_back",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "gambling_wash",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "ghost_payroll",
+      "bank": "bank_nab",
+      "count": 2
+    },
+    {
+      "typology": "atm_cashout_ring",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "crypto_gateway",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "insurance_cycling",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "tbml_invoice",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "hawala_mirror",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "crypto_atm_withdrawal",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "exchange_micro_structuring",
+      "bank": "bank_nab",
+      "count": 2
+    },
+    {
+      "typology": "p2p_fiat_roundtrip",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "crypto_salary_obfuscation",
+      "bank": "bank_nab",
+      "count": 2
+    },
+    {
+      "typology": "stablecoin_chain",
+      "bank": "bank_nab",
+      "count": 2
+    },
+    {
+      "typology": "crypto_mining_wash",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "unlicensed_vasp",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "p2p_broker",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "unlicensed_msb",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "gambling_rapid_cycling",
+      "bank": "bank_nab",
+      "count": 0
+    },
+    {
+      "typology": "otc_desk",
+      "bank": "bank_nab",
+      "count": 1
+    },
+    {
+      "typology": "smurfing",
+      "bank": "bank_westpac",
+      "count": 2
+    },
+    {
+      "typology": "dormant_activation",
+      "bank": "bank_westpac",
+      "count": 3
+    },
+    {
+      "typology": "cash_intensive",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "micro_structuring",
+      "bank": "bank_westpac",
+      "count": 2
+    },
+    {
+      "typology": "geo_smurfing",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "layering",
+      "bank": "bank_westpac",
+      "count": 3
+    },
+    {
+      "typology": "chain_branch",
+      "bank": "bank_westpac",
+      "count": 0
+    },
+    {
+      "typology": "pass_through",
+      "bank": "bank_westpac",
+      "count": 0
+    },
+    {
+      "typology": "split_merge",
+      "bank": "bank_westpac",
+      "count": 2
+    },
+    {
+      "typology": "circular_ring",
+      "bank": "bank_westpac",
+      "count": 2
+    },
+    {
+      "typology": "mule_network",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "hub_network",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "fanin_fanout",
+      "bank": "bank_westpac",
+      "count": 2
+    },
+    {
+      "typology": "funnel_account",
+      "bank": "bank_westpac",
+      "count": 2
+    },
+    {
+      "typology": "burst_transfers",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "round_tripping",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "loan_back",
+      "bank": "bank_westpac",
+      "count": 0
+    },
+    {
+      "typology": "gambling_wash",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "ghost_payroll",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "atm_cashout_ring",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "crypto_gateway",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "insurance_cycling",
+      "bank": "bank_westpac",
+      "count": 0
+    },
+    {
+      "typology": "tbml_invoice",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "hawala_mirror",
+      "bank": "bank_westpac",
+      "count": 0
+    },
+    {
+      "typology": "crypto_atm_withdrawal",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "exchange_micro_structuring",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "p2p_fiat_roundtrip",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "crypto_salary_obfuscation",
+      "bank": "bank_westpac",
+      "count": 0
+    },
+    {
+      "typology": "stablecoin_chain",
+      "bank": "bank_westpac",
+      "count": 0
+    },
+    {
+      "typology": "crypto_mining_wash",
+      "bank": "bank_westpac",
+      "count": 2
+    },
+    {
+      "typology": "unlicensed_vasp",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "p2p_broker",
+      "bank": "bank_westpac",
+      "count": 0
+    },
+    {
+      "typology": "unlicensed_msb",
+      "bank": "bank_westpac",
+      "count": 1
+    },
+    {
+      "typology": "gambling_rapid_cycling",
+      "bank": "bank_westpac",
+      "count": 2
+    },
+    {
+      "typology": "otc_desk",
+      "bank": "bank_westpac",
+      "count": 0
+    }
+  ]
+}

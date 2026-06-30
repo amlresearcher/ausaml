@@ -1,0 +1,247 @@
+[
+  {
+    "name": "smurfing",
+    "cross_bank": false,
+    "definition": "Multiple individuals make coordinated cash deposits each below CTR threshold, collectively exceeding it",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "dormant_activation",
+    "cross_bank": false,
+    "definition": "Controller reactivates dormant mule accounts which then burst payments back",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "cash_intensive",
+    "cross_bank": false,
+    "definition": "Business deposits cash volumes exceeding declared annual turnover",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "micro_structuring",
+    "cross_bank": false,
+    "definition": "Many depositors each make small cash deposits well below CTR threshold",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "geo_smurfing",
+    "cross_bank": true,
+    "definition": "Regional depositors in distinct geographic areas converge proceeds to same beneficiaries",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "layering",
+    "cross_bank": true,
+    "definition": "Rapid transfers across accounts and jurisdictions obscuring origin",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "chain_branch",
+    "cross_bank": true,
+    "definition": "Sequential chain with fraction simultaneously fanned to branch accounts at each node",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "pass_through",
+    "cross_bank": false,
+    "definition": "Controller funds pass-through accounts, each immediately forwarding 90-98% of received funds",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "split_merge",
+    "cross_bank": true,
+    "definition": "Origin splits to N intermediaries, each immediately forwarding to a single merger",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "circular_ring",
+    "cross_bank": false,
+    "definition": "N accounts form an ordered ring through which funds circulate",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "mule_network",
+    "cross_bank": true,
+    "definition": "Coordinated individuals sharing physical/digital infrastructure receive and forward funds",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "hub_network",
+    "cross_bank": true,
+    "definition": "Peripheral accounts funnel to a central hub which immediately forwards proceeds",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "fanin_fanout",
+    "cross_bank": true,
+    "definition": "Aggregator collects from multiple sources then redistributes to multiple destinations",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "funnel_account",
+    "cross_bank": false,
+    "definition": "Account aggregates funds from many sources then rapidly forwards to few destinations; near-zero balance",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "burst_transfers",
+    "cross_bank": false,
+    "definition": "Single origin fans out rapid payments to multiple receivers within a burst window",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "round_tripping",
+    "cross_bank": true,
+    "definition": "Funds leave a beneficial owner, travel through intermediaries, and return to a different account",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "loan_back",
+    "cross_bank": false,
+    "definition": "Criminal lends laundered funds to themselves through a shell entity to create legitimate income",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "gambling_wash",
+    "cross_bank": false,
+    "definition": "Illicit funds converted to gambling chips and cashed out as winnings",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "ghost_payroll",
+    "cross_bank": false,
+    "definition": "Fictitious employees receive payroll transfers that are immediately consolidated",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "atm_cashout_ring",
+    "cross_bank": false,
+    "definition": "Compromised card data used for coordinated ATM withdrawals across multiple locations",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "crypto_gateway",
+    "cross_bank": false,
+    "definition": "Fiat funds converted to cryptocurrency via exchange, layered on-chain, then cashed out",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "insurance_cycling",
+    "cross_bank": false,
+    "definition": "Rapid premium payments and policy surrenders used to cycle funds through insurer",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "tbml_invoice",
+    "cross_bank": false,
+    "definition": "Trade-based money laundering via over/under-invoiced import-export transactions",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "hawala_mirror",
+    "cross_bank": false,
+    "definition": "Informal value transfer mirrored by offsetting domestic transactions",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "crypto_atm_withdrawal",
+    "cross_bank": false,
+    "definition": "Crypto ATM used to convert crypto to cash with minimal KYC",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "exchange_micro_structuring",
+    "cross_bank": false,
+    "definition": "Small crypto exchange purchases structured to avoid reporting thresholds",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "p2p_fiat_roundtrip",
+    "cross_bank": false,
+    "definition": "P2P platform used to cycle fiat through multiple accounts",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "crypto_salary_obfuscation",
+    "cross_bank": false,
+    "definition": "Salary paid in crypto to obscure beneficial ownership of employment income",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "stablecoin_chain",
+    "cross_bank": false,
+    "definition": "Stablecoins used to chain transfers across wallets before off-ramping",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "crypto_mining_wash",
+    "cross_bank": false,
+    "definition": "Mining pool payouts used to launder proceeds as legitimate mining income",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "unlicensed_vasp",
+    "cross_bank": false,
+    "definition": "Unlicensed virtual asset service provider processes high-volume crypto transfers",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "p2p_broker",
+    "cross_bank": false,
+    "definition": "Informal broker matches buy/sell orders outside regulated exchange",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "unlicensed_msb",
+    "cross_bank": false,
+    "definition": "Unlicensed money services business transmits funds across borders",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "gambling_rapid_cycling",
+    "cross_bank": false,
+    "definition": "Rapid deposit/withdrawal cycles at online gambling platform",
+    "instances_per_bank": 5,
+    "enabled": true
+  },
+  {
+    "name": "otc_desk",
+    "cross_bank": false,
+    "definition": "Over-the-counter crypto desk facilitates large trades with minimal documentation",
+    "instances_per_bank": 5,
+    "enabled": true
+  }
+]

@@ -1,0 +1,305 @@
+{
+  "typology": "crypto_mining_wash",
+  "scenario_id": "SCN_0146",
+  "nodes": [
+    {
+      "id": "696dcd93-a933-41f8-baaa-6e0d2b5337cc",
+      "type": "customer",
+      "role": "miner",
+      "label": "Customer-696dcd"
+    },
+    {
+      "id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "type": "account",
+      "role": "miner",
+      "label": "ACC-1132775"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "target": "6ef2ba24-5e39-47ee-9fa8-5df158103a38",
+      "amount": 1116.01,
+      "datetime": "2025-09-16T04:23:33",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "66b839a7-e854-49ff-be9b-924b39018ff0",
+      "target": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "amount": 448.5,
+      "datetime": "2025-09-20T02:33:04",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "69e10cd5-c091-4a54-b726-96e80aa74ab5",
+      "target": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "amount": 840.66,
+      "datetime": "2025-09-25T17:57:42",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "target": "5f60f4e9-71ae-4461-8bab-0b071b5d513c",
+      "amount": 59.59,
+      "datetime": "2025-09-26T08:31:32",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "8e70fb27-23ec-475c-a50e-04aadb34ec90",
+      "target": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "amount": 130.21,
+      "datetime": "2025-09-26T08:33:32",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "target": "7d5489fa-324a-49af-a103-179cad601738",
+      "amount": 1570.7,
+      "datetime": "2025-09-27T02:43:09",
+      "tx_type": "transfer_internal"
+    },
+    {
+      "source": "5d4acb2c-ee5f-42fd-b5c9-f406b7fa1ffe",
+      "target": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "amount": 5570.76,
+      "datetime": "2025-09-30T08:16:10",
+      "tx_type": "transfer_internal"
+    }
+  ],
+  "timeline": [
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-15T07:51:15",
+      "amount": 21.42,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-16T04:21:33",
+      "amount": 9288.21,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-16T04:23:33",
+      "amount": 1116.01,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-16T04:25:33",
+      "amount": 21.79,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-16T09:59:59.000001",
+      "amount": 16468.25,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-16T09:59:59.000001",
+      "amount": 92.96,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-16T20:22:04",
+      "amount": 24.63,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-16T20:24:04",
+      "amount": 136.34,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-16T20:26:04",
+      "amount": 363.85,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-18T00:30:59",
+      "amount": 28.1,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-19T09:31:40",
+      "amount": 83925.25,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-19T09:33:40",
+      "amount": 958.21,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-19T09:35:40",
+      "amount": 13.06,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-19T09:37:40",
+      "amount": 50.93,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-20T02:31:04",
+      "amount": 10.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-20T02:33:04",
+      "amount": 448.5,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-20T10:13:58",
+      "amount": 101.52,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-21T11:43:04",
+      "amount": 3023.58,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-22T17:59:17",
+      "amount": 73.38,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-23T08:12:09",
+      "amount": 16212.98,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-23T20:48:54",
+      "amount": 3241.51,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-23T20:50:54",
+      "amount": 50.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-24T13:34:19",
+      "amount": 25544.23,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-24T13:36:19",
+      "amount": 27.47,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-25T15:08:39",
+      "amount": 140.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-25T17:57:42",
+      "amount": 840.66,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-26T08:31:32",
+      "amount": 59.59,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-26T08:33:32",
+      "amount": 130.21,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-27T02:43:09",
+      "amount": 1570.7,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-27T12:37:36",
+      "amount": 212.74,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-28T08:17:32",
+      "amount": 15.0,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-28T08:19:32",
+      "amount": 18.04,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-28T13:01:37",
+      "amount": 95.57,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-29T09:59:59.000001",
+      "amount": 631.82,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-30T02:02:49",
+      "amount": 14654.7,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-09-30T08:16:10",
+      "amount": 5570.76,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-10-06T18:43:06",
+      "amount": 16526.55,
+      "direction": "credit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-11-26T13:47:03",
+      "amount": 38.85,
+      "direction": "debit"
+    },
+    {
+      "account_id": "ca0a3424-1c0f-4ce3-8565-1f433b4525f8",
+      "datetime": "2025-12-06T13:43:43",
+      "amount": 438.87,
+      "direction": "debit"
+    }
+  ]
+}

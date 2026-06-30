@@ -1,0 +1,105 @@
+{
+  "typology": "gambling_rapid_cycling",
+  "scenario_id": "SCN_0166",
+  "nodes": [
+    {
+      "id": "6e845f2d-37fa-48e9-b2de-06965dd9da8c",
+      "type": "customer",
+      "role": "gambler",
+      "label": "Customer-6e845f"
+    },
+    {
+      "id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "type": "account",
+      "role": "gambler",
+      "label": "ACC-06853642"
+    }
+  ],
+  "edges": [],
+  "timeline": [
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-02T16:48:52",
+      "amount": 13448.85,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-03T09:59:59.000002",
+      "amount": 241.35,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-03T14:48:52",
+      "amount": 12837.54,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-05T23:05:07",
+      "amount": 11741.15,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-07T10:59:59.000001",
+      "amount": 85.76,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-07T14:05:07",
+      "amount": 11175.99,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-08T10:59:59.000001",
+      "amount": 241.96,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-09T10:54:21",
+      "amount": 75.5,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-09T14:55:39",
+      "amount": 10.32,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-09T14:57:39",
+      "amount": 123.75,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-09T16:19:18",
+      "amount": 5400.68,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-11T10:50:21",
+      "amount": 44.15,
+      "direction": "debit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-11T15:19:18",
+      "amount": 5299.89,
+      "direction": "credit"
+    },
+    {
+      "account_id": "2a4543ca-cae5-4d3a-8be5-79a0788c1127",
+      "datetime": "2025-10-11T17:37:23",
+      "amount": 69.32,
+      "direction": "debit"
+    }
+  ]
+}
